@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'yanonekaffeesatz-regular-webfont';
+    src: url('yanonekaffeesatz-regular-webfont.ttf');
+}
+body{
+    font-family: "yanonekaffeesatz-regular-webfont" , "Arial",sans-serif;
+    background: url('form-background.png');
+}
+#wrapper h1{
+    color: #7C7873;
+    text-align: center;
+}
+#inputform{
+    width: 530px;
+    height: 576px;
+    margin: 0 auto;
+    background: url('envelope-top.png'),  url('envelope-bottom.png');
+    background-position: center 135px, bottom center;
+    background-repeat: no-repeat,no-repeat;
+}
+form{
+    background:    url('envelope-bottom.png'),url('letter-background.png');
+    background-position: bottom center, bottom center;
+    background-repeat: no-repeat,repeat;
+    
+    margin: 0 auto; 
+    width:410px;
+    height: 536px;
+}
+form {
+    padding: 20px
+}
+form div{
+    padding: 5px 0px;
+}
+h3{
+    color: #7C7873;
+}
+p{
+    text-transform:uppercase;
+    color: #B3ABA8;
+}
+h3, p {
+    margin: 0px;
+}
+textArea{
+    width: 405px;
+    height: 64px;
+    
+}
+input[type="email"]{
+    width: 405px;
+}
+input[type="text"]{
+    width: 405px;
+}
+button{
+    font-family: "yanonekaffeesatz-regular-webfont" , "Arial",sans-serif;
+    font-size: 20px;
+    width: 120px;
+    margin: 0 145px;
+    color: #7C7873;
+    background: none;
+    border: none;
+    padding: 5px;
+}
+textArea,input{
+    line-height: 30px;
+    color: #514D4A;
+    font-family: "Helvetica","Arial",sans-serif;
+    border: 1px #E8E3DA solid;
+    border-radius: 5px;
+    background: url('letter-background.png');
+}
+textArea:focus, input:focus{
+    background: rgba(255,255,255,0.3);
+    outline: none;
+}
+button:hover{
+    background: #BBC9CF;
+    border-radius: 5px;
+    text-shadow: 1px 1px #ffffff 
+}

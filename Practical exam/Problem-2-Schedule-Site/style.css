@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+
+@font-face {
+    font-family: 'Fairview_Regular';
+    src: url('Fairview_Regular.otf');
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url(http://fonts.googleapis.com/css?family=Nunito);
+}
+body, #footer{
+    font-family: "Nunito","Arial",sans-serif;
+    margin: 0px;
+}
+#wrapper{
+    width: 670px;
+    margin: 0 auto;
+}
+#header, nav  {
+    text-align: center;
+    font-family: "Fairview_Regular","Helvetica",sans-serif;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    
+    background: #E05E43;
+    
+    font-size: 70px;
+}
+h1 {
+    margin: 0px;
+}
+#header a{
+    color: white;
+}
+#header a:hover{
+    color: black;
+}
+nav ul {
+    
+	padding: 15px;
+	margin: 0px;
+}
+
+nav ul li {
+	font-size: 25px;
+	display: inline;
+	padding: 30px;
+	margin: 0px;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+}
+
+nav a:hover ,#selected:hover {
+	color: black;
+}
+#selected{
+    background: red;
+    color: white;
+}
+p{
+      font-weight: bold;
+}
+table tr:nth-child(1){
+    font-weight: bold;
+}
+td{
+    width: 200px;
+}
+#footer{
+    background: black;
+    text-align: center;
+}
+#footnav{
+    padding: 15px;
+	margin: 0px;
+}
+#footnav li {
+    font-size: 15px;
+	display: inline;
+	padding: 10px;
+	margin: 0px;
+}
+#footnav a{
+        color: white;
+	text-decoration: none;
+}
+#footnav a:hover{
+    background: #aaaaaa;
+    color: black;
+}
+#hrfoot{
+    border: none;
+    height: 1px;
+    width: 600px;
+    color: #444444;
+background-color: #444444;
+}

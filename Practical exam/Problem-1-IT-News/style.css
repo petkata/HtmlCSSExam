@@ -1,0 +1,42 @@
+body{
+    font-family: Tahoma , Geneva , sans-serif;
+    
+}
+#wrapper{
+    padding: 0px;
+    width: 575px;
+}
+.news{
+    width: 258px;
+    margin: 5px 2.5px;
+    border: 1px #CBCBCB solid;
+    box-shadow: 2px 2px 5px #CBCBCB ;
+    padding: 10px;
+    display: inline-block;
+    
+}
+h3, p{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    margin: 0px;
+}
+.date{
+    color: #54555A;
+    font-size: 10px;
+}
+.text{
+    font-size: 13px;
+}
+img{
+    margin-right: 5px;
+    margin-top: 5px;
+    float: left;
+}
+a:hover{
+    text-decoration: underline;
+}
